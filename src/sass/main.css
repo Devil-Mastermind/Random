@@ -1,0 +1,51 @@
+body {
+  background: #decdcd;
+  color: #121212;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sub-container {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 4px 7px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.yes {
+  background: pink;
+}
+
+.no {
+  background: pink;
+}
+
+.btn-cont {
+  display: flex;
+  gap: 40px;
+}
+
+.img {
+  height: 100px;
+}
+
+.photo {
+  margin-top: 10px;
+}/*# sourceMappingURL=main.css.map */
